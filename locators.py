@@ -33,6 +33,9 @@ class Constructor:
     SAUCES_TAB = (By.XPATH, ".//div[contains(@class, 'tab_tab')][.//span[text()='Соусы']]")                 #  «Соусы»
     FILLINGS_TAB = (By.XPATH, ".//div[contains(@class, 'tab_tab')][.//span[text()='Начинки']]")             # «Начинки»
 
+    BUNS_HEADER = (By.XPATH, "//h2[text()='Булки']")
+    SAUCES_HEADER = (By.XPATH, "//h2[text()='Соусы']")
+    FILLINGS_HEADER = (By.XPATH, "//h2[text()='Начинки']")
 
 class ProfilePage:
     LOGOUT_BUTTON = (By.XPATH, ".//button[contains(text(), 'Выход')]")                                      # Кнопка «Выход»
